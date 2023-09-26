@@ -1,0 +1,17 @@
+
+body {
+    background-color: #f86c6c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h1 {
+    color: rgb(255, 238, 0);
+    background-color: rgb(198, 240, 188);
+}
+h2 {
+    color: rgb(103, 126, 80);
+}
+p {
+    color: antiquewhite;
+    text-align: justify;
+}
