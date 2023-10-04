@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        .num {
+            text-align: right;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>trabalhando com tabelas grandes</h1>
+    <table>
+        <caption>
+            População dos estados do Brasil
+        </caption>
+        <thead>
+            <tr>
+                <TH scope="col">Estado</TH>
+                <TH scope="col">População</TH>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"> 44 420 459</td>
+
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 136 417</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <TD class="num">11 443 208</TD>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 880 506</td>
+            </tr>
+            <tr>
+                <td>Pernanbuco</td>
+                <td class="num">9 058 155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 791 688</td>
+            </tr>
+            <TR>
+                <TD>Pará</TD>
+                <td class="num">8 116 132</td>
+            </TR>
+            <tr>
+                <td>Santa catarina</td>
+                <td class="num">7 609 601</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td class="num">7 055 228</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6 775 152</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 974 495</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 941 175</td>
+            </tr>
+            <tr>
+                <td>Espirito santo</td>
+                <td class="num">3 833 486</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 658 813</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 302 406</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td class="num">3 269 200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Ttotal de habitantes</th>
+                <td class="num"><strong>210 548 516</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, quod sed quo consequuntur ex eos, ipsam perferendis similique, magnam aspernatur? Nulla iste dicta, est illo quasi ab facere a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque veritatis id, possimus saepe quidem, quae nobis placeat ipsum dolorum ea reprehenderit recusandae porro. Inventore dolore dicta delectus illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel molestiae, nobis atque possimus totam ad suscipit vero voluptates harum distinctio eos officiis iste dignissimos explicabo aut! Expedita, illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam non ea repellat impedit. Veniam modi hic necessitatibus est ratione aliquid atque sint inventore, eos iure quia, provident dolorum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia officiis? Labore dicta quaerat voluptate ducimus nesciunt? Maxime quo corrupti rerum deleniti quidem culpa fuga sint. Dolorem laboriosam nisi accusamus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, quod sed quo consequuntur ex eos, ipsam perferendis similique, magnam aspernatur? Nulla iste dicta, est illo quasi ab facere a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque veritatis id, possimus saepe quidem, quae nobis placeat ipsum dolorum ea reprehenderit recusandae porro. Inventore dolore dicta delectus illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel molestiae, nobis atque possimus totam ad suscipit vero voluptates harum distinctio eos officiis iste dignissimos explicabo aut! Expedita, illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam non ea repellat impedit. Veniam modi hic necessitatibus est ratione aliquid atque sint inventore, eos iure quia, provident dolorum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia officiis? Labore dicta quaerat voluptate ducimus nesciunt? Maxime quo corrupti rerum deleniti quidem culpa fuga sint. Dolorem laboriosam nisi accusamus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, quod sed quo consequuntur ex eos, ipsam perferendis similique, magnam aspernatur? Nulla iste dicta, est illo quasi ab facere a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque veritatis id, possimus saepe quidem, quae nobis placeat ipsum dolorum ea reprehenderit recusandae porro. Inventore dolore dicta delectus illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel molestiae, nobis atque possimus totam ad suscipit vero voluptates harum distinctio eos officiis iste dignissimos explicabo aut! Expedita, illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam non ea repellat impedit. Veniam modi hic necessitatibus est ratione aliquid atque sint inventore, eos iure quia, provident dolorum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia officiis? Labore dicta quaerat voluptate ducimus nesciunt? Maxime quo corrupti rerum deleniti quidem culpa fuga sint. Dolorem laboriosam nisi accusamus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, quod sed quo consequuntur ex eos, ipsam perferendis similique, magnam aspernatur? Nulla iste dicta, est illo quasi ab facere a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque veritatis id, possimus saepe quidem, quae nobis placeat ipsum dolorum ea reprehenderit recusandae porro. Inventore dolore dicta delectus illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel molestiae, nobis atque possimus totam ad suscipit vero voluptates harum distinctio eos officiis iste dignissimos explicabo aut! Expedita, illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam non ea repellat impedit. Veniam modi hic necessitatibus est ratione aliquid atque sint inventore, eos iure quia, provident dolorum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia officiis? Labore dicta quaerat voluptate ducimus nesciunt? Maxime quo corrupti rerum deleniti quidem culpa fuga sint. Dolorem laboriosam nisi accusamus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, quod sed quo consequuntur ex eos, ipsam perferendis similique, magnam aspernatur? Nulla iste dicta, est illo quasi ab facere a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque veritatis id, possimus saepe quidem, quae nobis placeat ipsum dolorum ea reprehenderit recusandae porro. Inventore dolore dicta delectus illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel molestiae, nobis atque possimus totam ad suscipit vero voluptates harum distinctio eos officiis iste dignissimos explicabo aut! Expedita, illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam non ea repellat impedit. Veniam modi hic necessitatibus est ratione aliquid atque sint inventore, eos iure quia, provident dolorum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia officiis? Labore dicta quaerat voluptate ducimus nesciunt? Maxime quo corrupti rerum deleniti quidem culpa fuga sint. Dolorem laboriosam nisi accusamus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, quod sed quo consequuntur ex eos, ipsam perferendis similique, magnam aspernatur? Nulla iste dicta, est illo quasi ab facere a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque veritatis id, possimus saepe quidem, quae nobis placeat ipsum dolorum ea reprehenderit recusandae porro. Inventore dolore dicta delectus illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel molestiae, nobis atque possimus totam ad suscipit vero voluptates harum distinctio eos officiis iste dignissimos explicabo aut! Expedita, illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam non ea repellat impedit. Veniam modi hic necessitatibus est ratione aliquid atque sint inventore, eos iure quia, provident dolorum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia officiis? Labore dicta quaerat voluptate ducimus nesciunt? Maxime quo corrupti rerum deleniti quidem culpa fuga sint. Dolorem laboriosam nisi accusamus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, quod sed quo consequuntur ex eos, ipsam perferendis similique, magnam aspernatur? Nulla iste dicta, est illo quasi ab facere a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque veritatis id, possimus saepe quidem, quae nobis placeat ipsum dolorum ea reprehenderit recusandae porro. Inventore dolore dicta delectus illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel molestiae, nobis atque possimus totam ad suscipit vero voluptates harum distinctio eos officiis iste dignissimos explicabo aut! Expedita, illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam non ea repellat impedit. Veniam modi hic necessitatibus est ratione aliquid atque sint inventore, eos iure quia, provident dolorum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia officiis? Labore dicta quaerat voluptate ducimus nesciunt? Maxime quo corrupti rerum deleniti quidem culpa fuga sint. Dolorem laboriosam nisi accusamus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis, quod sed quo consequuntur ex eos, ipsam perferendis similique, magnam aspernatur? Nulla iste dicta, est illo quasi ab facere a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque veritatis id, possimus saepe quidem, quae nobis placeat ipsum dolorum ea reprehenderit recusandae porro. Inventore dolore dicta delectus illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel molestiae, nobis atque possimus totam ad suscipit vero voluptates harum distinctio eos officiis iste dignissimos explicabo aut! Expedita, illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam non ea repellat impedit. Veniam modi hic necessitatibus est ratione aliquid atque sint inventore, eos iure quia, provident dolorum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia officiis? Labore dicta quaerat voluptate ducimus nesciunt? Maxime quo corrupti rerum deleniti quidem culpa fuga sint. Dolorem laboriosam nisi accusamus.</p>
+</body>
+</html>
