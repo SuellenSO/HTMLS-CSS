@@ -67,19 +67,19 @@ section.imagem {
 section.imagem >p {
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.521);
+    background-color: rgba(0, 0, 0, 0.582);
     border-radius: 7%;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.363);
     border: 1px solid rgb(122, 122, 122);
     
 }
 section#img01 {
-    background-image: url('../desafio12/imagens/background001.jpg');
+    background-image: url('../Projeto-cordel/imagens/background001.jpg');
     background-size: cover;
     background-position: right center;
 }
 section#img02 {
-    background-image: url('../desafio12/imagens/background002.jpg');
+    background-image: url('../Projeto-cordel/imagens/background002.jpg');
     background-position: right center;
     background-size: cover;
 }
