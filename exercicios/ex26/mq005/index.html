@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu responsivo</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu Site</h1>
         <i  id="burger"  onclick="clickMenu()" class="material-icons">menu</i>
@@ -36,6 +37,13 @@
                 } else {
                     item.style.display = 'block'
                 }
+        }
+        function mudoutamanho() {
+            if (window.innerWidth >= 768) {
+                item.style.display = 'block'
+            } else {
+                item.style.display = 'none'
+            }
         }
     </script>
 </body>
