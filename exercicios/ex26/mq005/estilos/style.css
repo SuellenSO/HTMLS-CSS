@@ -17,8 +17,20 @@ header>h1 {
     padding: 10px;
     text-align: center;
 }
-menu {
+i#burger{
+    width: 100vw;
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burger:hover {
+    background-color:  #ffe9f7;
+    color: #31010e;
+}
+menu {
+    display: none;
 }
 menu > ul {
     list-style-type: none;
